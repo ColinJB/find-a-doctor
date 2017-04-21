@@ -1,0 +1,842 @@
+{
+  "meta": {
+    "data_type": "array",
+    "item_type": "Doctor",
+    "total": 3,
+    "count": 3,
+    "skip": 0,
+    "limit": 10
+  },
+  "data": [
+    {
+      "practices": [
+        {
+          "location_slug": "or-clackamas",
+          "within_search_area": true,
+          "distance": 10.192324594340183,
+          "lat": 45.43248,
+          "lon": -122.56031,
+          "uid": "c50bb70334b3fd31bed429e6611032f3",
+          "name": "Daniel Lotspeich, MD",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "bridgespan-bridgespanhix",
+            "medicaid-medicaid",
+            "medicare-medicare",
+            "aetna-aetnamdbronzesilverandgoldhmo",
+            "kaiserpermanente-kaiserpermanente"
+          ],
+          "visit_address": {
+            "city": "Clackamas",
+            "lat": 45.43248,
+            "lon": -122.56031,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "10100 SE Sunnyside Rd",
+            "zip": "97015"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5035712880",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        },
+        {
+          "location_slug": "or-clackamas",
+          "within_search_area": true,
+          "distance": 10.197481581027208,
+          "lat": 45.43152,
+          "lon": -122.56097,
+          "uid": "3dd2df222b88a214e0ed2912fa1016dc",
+          "name": "Cara Rozell, DO",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "medicare-medicare",
+            "medicaid-medicaid",
+            "kaiserpermanente-kaiserpermanente"
+          ],
+          "visit_address": {
+            "city": "Clackamas",
+            "lat": 45.43152,
+            "lon": -122.56097,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "10180 SE Sunnyside Rd",
+            "zip": "97015"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "9713445233",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        },
+        {
+          "location_slug": "or-clackamas",
+          "within_search_area": true,
+          "distance": 10.197481581027208,
+          "lat": 45.43152,
+          "lon": -122.56097,
+          "uid": "4137613ee851383e1317ca9c4098f1ac",
+          "name": "Kaiser Permanente Kaiser Sunnyside Med Office",
+          "website": "https://healthy.kaiserpermanente.org/health/care/!ut/p/a1/dY9dT4MwFIZ_Dbc9h3UieAczMy1-zW2KvTFs6wqx0KbUkf17geiFUc_dmzzvk_eAgAJEW55qVfratKUes4jelnz9kGVhipjxObK79P7pgnPEeA4vwEEobXYT_Fp5b68CDNA4Rd4tac4Hs_fGEWuc19J3AYKoD1Ak4eUswWTspO2OxgqEk0fppCMfblCNom4y9X1PlDFKS7I3DbHVoPijVZnOQ_ELHgaKnz_EW3qNbLtYLqIVCxHxC0DKVhNw8xghsjjf5M9JThFn38A_lyLYJj5Tfbo9rpn6BBjlTbQ!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_FJSOBB1A00BJ40IMANR5JJ0045/act/id=0/p=subLinkPrivate=myoffice/p=idPrivate=9172909/331321365278/=/",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "blueshieldofcalifornia-blueshieldcabasicppobronzelevelhix",
+            "bridgespan-bridgespanhix",
+            "premerabcbs-premeraheritagesignaturehix",
+            "premerabcbs-lifewiseconnecthix",
+            "medicare-medicare",
+            "medicaid-medicaid",
+            "aetna-aetnamdbronzesilverandgoldhmo",
+            "kaiserpermanente-kaiserpermanente"
+          ],
+          "visit_address": {
+            "city": "Clackamas",
+            "lat": 45.43152,
+            "lon": -122.56097,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "10180 SE Sunnyside Rd",
+            "zip": "97015"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5036522880",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        }
+      ],
+      "educations": [
+        {
+          "school": "Chicago College of Osteopathic Medicine",
+          "degree": "DO"
+        }
+      ],
+      "profile": {
+        "first_name": "Cara",
+        "middle_name": "Lee",
+        "last_name": "Rozell",
+        "slug": "cara-rozell-do",
+        "title": "DO",
+        "image_url": "https://asset1.betterdoctor.com/images/556ba5584214f87aba00171e-2_thumbnail.jpg",
+        "gender": "female",
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ],
+        "bio": "I grew up just outside of Chicago, Illinois and attended medical school there as well. My training after medical school took me to New Mexico for a few years, then back to the mid-west to Detroit, Michigan. I've been here in Portland, Oregon since 1998, and it's been a terrific fit for my family, a town with rich culture to offer for it's livable size. My practice of medicine has really been geared towards helping the \"underdog\", and in my case, this has meant a specialty in headache, a population of people who have often not gotten the best attention and care."
+      },
+      "ratings": [],
+      "insurances": [
+        {
+          "insurance_plan": {
+            "uid": "bridgespan-bridgespanhix",
+            "name": "Bridgespan - HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "bridgespan",
+            "name": "Bridgespan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "medicaid-medicaid",
+            "name": "Medicaid",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "medicaid",
+            "name": "Medicaid"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "medicare-medicare",
+            "name": "Medicare",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "medicare",
+            "name": "Medicare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnamdbronzesilverandgoldhmo",
+            "name": "MD Bronze Silver  Gold - HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "kaiserpermanente-kaiserpermanente",
+            "name": "Kaiser Permanente",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "kaiserpermanente",
+            "name": "Kaiser Permanente"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "blueshieldofcalifornia-blueshieldcabasicppobronzelevelhix",
+            "name": "Basic PPO - Bronze level HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "blueshieldofcalifornia",
+            "name": "Blue Shield of California"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabcbs-premeraheritagesignaturehix",
+            "name": "Premera Heritage Signature - HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabcbs",
+            "name": "Premera Blue Cross Blue Shield"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabcbs-lifewiseconnecthix",
+            "name": "LifeWise Connect - HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabcbs",
+            "name": "Premera Blue Cross Blue Shield"
+          }
+        }
+      ],
+      "specialties": [
+        {
+          "uid": "neurologist",
+          "name": "Neurology",
+          "description": "Specializes in the brain and nervous system.",
+          "category": "medical",
+          "actor": "Neurologist",
+          "actors": "Neurologists"
+        }
+      ],
+      "licenses": [
+        {
+          "number": "WA OP00001640",
+          "state": "WA"
+        },
+        {
+          "number": "OR DO21562",
+          "state": "OR"
+        }
+      ],
+      "uid": "56f86d552a79ccdf6f786c33cb3b88f0",
+      "npi": "1003929571"
+    },
+    {
+      "practices": [
+        {
+          "location_slug": "or-portland",
+          "within_search_area": true,
+          "distance": 9.133193842872728,
+          "lat": 45.410163,
+          "lon": -122.744906,
+          "uid": "16b10f32175262bd9c7092652d4944c4",
+          "name": "Kaiser Permanente The Portland Clinic South",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "aetna-aetnasignatureadministratorsppo",
+            "firstchoice-firstchoice",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "healthnet-healthnetorcommunitycare",
+            "healthnet-healthnetorppo",
+            "bcbsbluecard-bcbsbluecardppo",
+            "providencehealthsystem-providencepersonaloption",
+            "multiplan-multiplanppo",
+            "multiplan-phcsppo",
+            "cigna-cignappo",
+            "aetna-aetnachoiceposii",
+            "providencehealthsystem-providencepreferredppo",
+            "cigna-cignaopenaccessplus",
+            "uhcwestformerlypacificare-pacificarehmo",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "odshealthplan-odsnetwork",
+            "lifewisehealthplanoforegon-lifewisehealthplanoforegon",
+            "premerabluecross-premeraheritageheritageplus1",
+            "premerabluecross-premeraheritagesignature",
+            "premerabluecross-premeralifewiseconnect",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcnavigatehmo",
+            "unitedhealthcare-uhcnavigatepos",
+            "unitedhealthcare-uhcoptionsppo",
+            "firsthealthcoventryhealthcare-firsthealthppo",
+            "kaiserpermanente-kaiserpermanente"
+          ],
+          "visit_address": {
+            "city": "Portland",
+            "lat": 45.410163,
+            "lon": -122.744906,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "6640 SW Redwood Ln",
+            "zip": "97224"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "3604500140",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        }
+      ],
+      "educations": [
+        {
+          "school": "University of Colorado School of Medicine",
+          "degree": "MD"
+        }
+      ],
+      "profile": {
+        "first_name": "Brooke",
+        "middle_name": "M",
+        "last_name": "Madden",
+        "slug": "brooke-madden",
+        "title": "MD",
+        "image_url": "https://asset4.betterdoctor.com/images/5590c128f22866052a0015b4-2_thumbnail.jpg",
+        "gender": "female",
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ],
+        "bio": "I earned my medical degree from the University of Colorado School of Medicine. I then went on to complete an internal medicine internship and neurology residency, where I was chief resident, at the University of Wisconsin Hospital and Clinics in Madison, Wisconsin.\n\nI was born and raised in a small town in Northern California. I decided to go into medicine because I enjoy science and wanted to work with people to improve the quality of their lives. Early in my medical education, I realized that I was fascinated by neurology because there is still so much mystery and unknown in the field. This mystery provides challenge in my practice and the need for continuous learning. After completing my neurology residency and fellowship in Madison Wisconsin, I decided that the pacific northwest, with a more temperate climate, was the place for me. My family loves to call the Northwest home! We truly enjoy the natural beauty, the wonderful people, the world class food, and being able to get outside year round.\n\nI am a general neurologist and see all types of neurological conditions. I have fellowship training in epilepsy. I also have a special interest in treating headache as I find this to be an often overlooked but common neurological condition. I also do botulinum toxin injections for chronic migraine. I believe that in order to provide good neurological care, one needs to listen carefully to the patient and their families as well as pay attention to details.\n\nI thrive by getting outside as much as possible. My passion is gardening and I especially love taking care of rose plants. I find the pacific northwest to be the perfect area for this hobby, especially as compared to growing roses in Wisconsin where it was much more a hobby of “rose survival” than “rose gardening”. Here in Oregon, my roses bloom multiple times a season, which I just love to watch! I also enjoy running, camping and boating. I find my balance by getting outside, exercising or spending time with family whenever I get the chance."
+      },
+      "ratings": [],
+      "insurances": [
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnasignatureadministratorsppo",
+            "name": "Aetna Signature Administrators PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "firstchoice-firstchoice",
+            "name": "First Choice",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "firstchoice",
+            "name": "First Choice"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnamanagedchoiceposopenaccess",
+            "name": "Aetna Managed Choice POS Open Access",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-healthnetorcommunitycare",
+            "name": "Health Net OR CommunityCare",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "Health Net"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-healthnetorppo",
+            "name": "Health Net OR PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "Health Net"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "bcbsbluecard-bcbsbluecardppo",
+            "name": "BCBS Blue Card PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "bcbsbluecard",
+            "name": "BCBS Blue Card"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "providencehealthsystem-providencepersonaloption",
+            "name": "Providence Personal Option",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "providencehealthsystem",
+            "name": "Providence Health System"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "multiplan-multiplanppo",
+            "name": "Multiplan PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "multiplan",
+            "name": "Multiplan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "multiplan-phcsppo",
+            "name": "PHCS PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "multiplan",
+            "name": "Multiplan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignappo",
+            "name": "CIGNA PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnachoiceposii",
+            "name": "Aetna Choice POS II",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "providencehealthsystem-providencepreferredppo",
+            "name": "Providence Preferred PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "providencehealthsystem",
+            "name": "Providence Health System"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignaopenaccessplus",
+            "name": "CIGNA Open Access Plus",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "uhcwestformerlypacificare-pacificarehmo",
+            "name": "Pacificare HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "uhcwestformerlypacificare",
+            "name": "UHC West Formerly Pacificare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "name": "PacificSource Preferred PSN",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "pacificsourcehealthplans",
+            "name": "PacificSource Health Plans"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "name": "Regence OR Preferred Provider Network",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "regencebluecrossblueshieldoforegon",
+            "name": "Regence Blue Cross Blue Shield of Oregon"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "odshealthplan-odsnetwork",
+            "name": "ODS Network",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "odshealthplan",
+            "name": "ODS Health Plan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "lifewisehealthplanoforegon-lifewisehealthplanoforegon",
+            "name": "Lifewise Health Plan of Oregon",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "lifewisehealthplanoforegon",
+            "name": "Lifewise health Plan of Oregon"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeraheritageheritageplus1",
+            "name": "Premera Heritage  Heritage Plus 1",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeraheritagesignature",
+            "name": "Premera Heritage Signature",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeralifewiseconnect",
+            "name": "Premera LifeWise Connect",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "gwhcigna-greatwestppo",
+            "name": "Great West PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "gwhcigna",
+            "name": "GWH-Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcchoicepluspos",
+            "name": "UHC Choice Plus POS",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcnavigatehmo",
+            "name": "UHC Navigate HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcnavigatepos",
+            "name": "UHC Navigate POS",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcoptionsppo",
+            "name": "UHC Options PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "firsthealthcoventryhealthcare-firsthealthppo",
+            "name": "First Health PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "firsthealthcoventryhealthcare",
+            "name": "First Health Coventry Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "kaiserpermanente-kaiserpermanente",
+            "name": "Kaiser Permanente",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "kaiserpermanente",
+            "name": "Kaiser Permanente"
+          }
+        }
+      ],
+      "specialties": [
+        {
+          "uid": "neurologist",
+          "name": "Neurology",
+          "description": "Specializes in the brain and nervous system.",
+          "category": "medical",
+          "actor": "Neurologist",
+          "actors": "Neurologists"
+        }
+      ],
+      "licenses": [
+        {
+          "number": "MD157914",
+          "state": "OR"
+        }
+      ],
+      "uid": "a8eb4d4eceaa36789bbbe9cc0f3142cf",
+      "npi": "1366642746"
+    },
+    {
+      "practices": [
+        {
+          "location_slug": "or-clackamas",
+          "within_search_area": true,
+          "distance": 10.697489628847935,
+          "lat": 45.41217,
+          "lon": -122.56874,
+          "uid": "850c4c294d87545d4a6607089f4f2e53",
+          "name": "Oregon Headache Clinic",
+          "accepts_new_patients": true,
+          "insurance_uids": [],
+          "visit_address": {
+            "city": "Clackamas",
+            "lat": 45.41217,
+            "lon": -122.56874,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "15259 SE 82nd Dr",
+            "street2": "Ste 201B",
+            "zip": "97015"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5036563120",
+              "type": "fax"
+            },
+            {
+              "number": "5036569844",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        }
+      ],
+      "educations": [],
+      "profile": {
+        "first_name": "Christina",
+        "middle_name": "E",
+        "last_name": "Peterson",
+        "slug": "christina-peterson-md",
+        "title": "MD",
+        "image_url": "https://asset1.betterdoctor.com/assets/general_doctor_female.png",
+        "gender": "female",
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ],
+        "bio": "Dr. Christina Peterson, MD practices medicine at Clackamas, Oregon, specializing in neurology.\n\nDr. Peterson is licensed to see patients in Alaska and Oregon.\n\nIn addition to having active medical licenses, Dr. Peterson has successfully passed a background check including a medical license verification (active) and screening for malpractice history (none found)."
+      },
+      "ratings": [],
+      "insurances": [],
+      "specialties": [
+        {
+          "uid": "neurologist",
+          "name": "Neurology",
+          "description": "Specializes in the brain and nervous system.",
+          "category": "medical",
+          "actor": "Neurologist",
+          "actors": "Neurologists"
+        }
+      ],
+      "licenses": [
+        {
+          "number": "2839",
+          "state": "AK"
+        },
+        {
+          "number": "MD13675",
+          "state": "OR"
+        }
+      ],
+      "uid": "b8f946116d97e83bec031a10c0480de9",
+      "npi": "1245394022"
+    }
+  ]
+}
