@@ -8,9 +8,7 @@ var displayDoctors = function(doctors){
     $('#body').append('<tr>'+
                       '<td><img src="'+doctor.img+'"></img></td>'+
                       '<td>'+doctor.firstName+' '+doctor.lastName+'</td>'+
-                      '<td>'+doctor.gender+'</td>'+
-                      '<td><span id="bio">'+doctor.bio+'</span><span class="click">Click for bio.</span>'+'</td>'+
-                      '<td><span class="w3-badge w3-blue" id="number">'+doctor.practiceNumber+'</span></td>'+
+                      '<td class="textCenter">'+doctor.gender+'</td><td class="textCenter"><span class="w3-badge w3-blue" id="number">'+doctor.practiceNumber+'</span></td><td><span id="bio">'+doctor.bio+" "+'</span><span class="click">Click for bio</span>'+'</td>'+
                     '</tr>')
   });
 }

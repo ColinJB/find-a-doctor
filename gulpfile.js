@@ -105,7 +105,7 @@ gulp.task('htmlBuild', function() {
   browserSync.reload();
 });
 
-gulp.task('cssBuild', function(){
+gulp.task('cssBuild', function() {
   return gulp.src(['scss/*.scss'])
     .pipe(sourcemaps.init())
     .pipe(sass())

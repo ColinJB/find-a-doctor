@@ -1,12 +1,34 @@
 #bio {
-  display: hidden;
+  display: none;
 }
 
-#click {
+#imgCol {
+  width: 10%;
+}
+
+#nameCol {
+  width: 15%;
+}
+
+#genCol {
+  width: 5%;
+  text-align: center;
+}
+
+#pracCol {
+  width: 5%;
+  text-align: center;
+}
+
+.click {
   color: blue;
 }
 
-#click:hover {
+.click:hover {
   text-decoration: underline;
   color: blue;
+}
+
+.textCenter {
+  text-align: center;
 }
