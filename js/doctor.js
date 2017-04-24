@@ -24,11 +24,10 @@ exports.getDoctors = function(symptoms, displayDoctors) {
         });
         newDoctor.practiceNumber = newDoctor.practices.length;
         if (doctor.profile.img_url === null){
-          newDoctor.img = "http://www.healthplusmedical.com.au/site/DefaultSite/skins/default/images/doctor-default-image.jpg"
+          newDoctor.img = "http://www.healthplusmedical.com.au/site/DefaultSite/skins/default/images/doctor-default-image.jpg";
         } else{
           newDoctor.img = doctor.profile.image_url;
         }
-        console.log(newDoctor.img);
         newDoctor.bio = doctor.profile.bio;
         doctors.push(newDoctor);
       });
