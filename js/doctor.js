@@ -1,13 +1,13 @@
 var apiKey = require('./../.env').apiKey;
 
 function Doctor() {
-  this.firstName;
-  this.lastName;
-  this.gender;
+  this.firstName = "";
+  this.lastName = "";
+  this.gender = "";
   this.practices = [];
-  this.img;
-  this.bio;
-  this.practiceNumber;
+  this.img = "";
+  this.bio = "";
+  this.practiceNumber = 0;
 }
 
 exports.getDoctors = function(symptoms, displayDoctors) {
