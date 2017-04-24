@@ -1,5 +1,4 @@
 var apiKey = require('./../.env').apiKey;
-// var displayDoctors = require('./../js/doctor-interface.js').displayDoctors;
 
 function Doctor() {
   this.firstName;
@@ -10,8 +9,8 @@ function Doctor() {
   this.bio;
 }
 
-exports.getDoctors = function(medicalIssue) {
-  $.get('https://api.betterdoctor.com/2016-03-01/doctors?query='+ medicalIssue+'&location=45.5231%2C-122.6765%2C%205&user_location=45.5231%2C-122.6765&skip=0&limit=20&user_key=' + apiKey)
+exports.getDoctors = function(symptoms, displayDoctors) {
+  $.get('https://api.betterdoctor.com/2016-03-01/doctors?query='+ symptoms+'&location=45.5231%2C-122.6765%2C%205&user_location=45.5231%2C-122.6765&skip=0&limit=20&user_key=' + apiKey)
     .then(function(response) {
       var doctors = [];
       response.data.forEach(function(doctor){
@@ -20,13 +19,18 @@ exports.getDoctors = function(medicalIssue) {
         newDoctor.lastName = doctor.profile.last_name;
         newDoctor.gender = doctor.profile.gender;
         doctor.practices.forEach(function(practice){
-          newDoctor.practices.push(practice)
+          newDoctor.practices.push(practice);
         });
-        newDoctor.img = doctor.image_url;
-        newDoctor.bio = doctor.bio;
+        if (doctor.profile.img_url === null){
+          newDoctor.img = "http://www.healthplusmedical.com.au/site/DefaultSite/skins/default/images/doctor-default-image.jpg"
+        } else{
+          newDoctor.img = doctor.profile.image_url;
+        }
+        console.log(newDoctor.img);
+        newDoctor.bio = doctor.profile.bio;
         doctors.push(newDoctor);
       });
-      return doctors;
+      displayDoctors(doctors);
     })
    .fail(function(error){
       console.log("fail");
