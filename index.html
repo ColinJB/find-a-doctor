@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <title>Find a Doc</title>
     <link rel="stylesheet" href="/build/css/vendor.css">
+    <!-- <link rel="stylesheet" href="build/css/styles.css"> -->
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
   </head>
@@ -15,7 +15,7 @@
       <div class="row">
           <form id="symptomform">
             <label for="symptoms">Symptoms:</label>
-            <input type="text" name="symptoms" id="symptoms" value="headache">
+            <input type="text" name="symptoms" id="symptoms">
             <button type="button" id="symptomButton">Submit Symptoms</button>
           </form>
       </div>
@@ -25,14 +25,13 @@
             <table class="table table-bordered">
               <thead>
                 <tr>
-                  <th>Practice:</th>
-                  <th>Distance:</th>
-                  <th>Address:</th>
                   <th></th>
-                  <th></th>
+                  <th>Name:</th>
+                  <th>Bio:</th>
                 </tr>
               </thead>
-
+              <tbody id="body">
+              </tbody>
             </table>
           </span>
         </p>
