@@ -7,6 +7,7 @@ function Doctor() {
   this.practices = [];
   this.img;
   this.bio;
+  this.practiceNumber;
 }
 
 exports.getDoctors = function(symptoms, displayDoctors) {
@@ -17,10 +18,11 @@ exports.getDoctors = function(symptoms, displayDoctors) {
         var newDoctor = new Doctor();
         newDoctor.firstName = doctor.profile.first_name;
         newDoctor.lastName = doctor.profile.last_name;
-        newDoctor.gender = doctor.profile.gender;
+        newDoctor.gender = doctor.profile.gender.charAt(0).toUpperCase();
         doctor.practices.forEach(function(practice){
           newDoctor.practices.push(practice);
         });
+        newDoctor.practiceNumber = newDoctor.practices.length;
         if (doctor.profile.img_url === null){
           newDoctor.img = "http://www.healthplusmedical.com.au/site/DefaultSite/skins/default/images/doctor-default-image.jpg"
         } else{
